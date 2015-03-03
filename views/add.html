@@ -1,0 +1,37 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WikiStack</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <ul>
+      <li>Wikistack</li>
+      <li>Add Page</li>
+    </ul> 
+
+    <h1>Add a Page</h1>
+    <form action='/add/submit' method='post'>
+      <div class="form-group">
+        <label for="pageTitle">Page Title</label>
+        <input type="pageTitle"
+               class="form-control"
+               id="pageTitle"
+               placeholder="Name your page">
+      </div>
+      <div class="form-group">
+        <label for="pageContent">Page Content</label>
+        <input type="pageContent"
+               class="form-control"
+               id="pageContent"
+               placeholder="Enter your content">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+
+  </body>
+</html>
+

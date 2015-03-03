@@ -1,0 +1,17 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}WikiStack{% endblock %}</title>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+              rel="stylesheet">
+    </head>
+    <body>
+        <ul>
+            <li>Wikistack</li>
+            <li>Add Page</li>
+        </ul> 
+        {% block content %}{% endblock %}
+        {% block footer %}{% endblock %}
+    </body>
+</html>
